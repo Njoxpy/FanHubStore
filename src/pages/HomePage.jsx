@@ -3,12 +3,12 @@ import React from 'react'
 
 // import components
 import Header from '../components/layout/Header'
-import Hero from ''
-import Products from './components/Products'
-import Testimonial from './components/Testimonial'
-import Category from './components/Category'
-import Footer from './components/Footer'
-import Contact from './components/Contact'
+import Hero from '../components/Hero'
+import Products from '../components/Home/Products'
+import Testimonial from '../components/Home/Testimonial'
+import Category from '../components/Home/Category'
+import Footer from '../components/layout/Footer'
+import Contact from '../pages/ContactUs'
 export default function Home() {
   return (
     <div>
