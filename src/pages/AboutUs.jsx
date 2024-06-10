@@ -1,0 +1,3 @@
+/* 
+page about the store and the club
+*/

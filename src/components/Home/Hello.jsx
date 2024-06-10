@@ -25,3 +25,13 @@ export default function Header() {
     </main>
   );
 }
+
+/*
+Download svg for
+- home icon
+-  products Icon
+- Login
+- About
+
+Navbar responsive
+*/

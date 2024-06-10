@@ -1,9 +1,9 @@
 // import home components
-import Home from "./Home";
+import Homepage from "./pages/HomePage";
 export default function App() {
   return (
     <main>
-      <Home />
+      <Homepage />
     </main>
   );
 }
