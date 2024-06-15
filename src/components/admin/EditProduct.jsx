@@ -60,5 +60,5 @@ export default function CreateProduct() {
 
 /* 
 Note
-- On Medimu screens display label as a block level element
+- On Medium screens display label as a block level element
 */

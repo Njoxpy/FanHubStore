@@ -16,3 +16,9 @@ export default function Products() {
     </main>
   );
 }
+
+/*
+- Into product section it should display 3 products in a row on large screens.
+- Download 3 products image.
+- create javascript array for storing product name, product price and image.
+*/

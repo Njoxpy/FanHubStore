@@ -6,57 +6,34 @@ import React from "react";
 export default function AboutUs() {
   const aboutCompany = [
     {
-      mission:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. At unde incidunt, quod eius explicabo perspiciatis aspernatur illum labore asperiores in magni doloribus quos voluptates optio est rem Atque, harum earum?",
+      title: "Mission",
+      description:
+        "To provide fans with high-quality merchandise and apparel that celebrate their favorite teams and enhance their fan experience.",
     },
     {
-      vission:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. At unde incidunt, quod eius explicabo perspiciatis aspernatur illum labore asperiores in magni doloribus quos voluptates optio est rem Atque, harum earum?",
+      title: "Vision",
+      description:
+        "To become the go-to destination for sports fans worldwide, offering a wide range of products and creating memorable experiences.",
     },
     {
-      goals:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. At unde incidunt, quod eius explicabo perspiciatis aspernatur illum labore asperiores in magni doloribus quos voluptates optio est rem Atque, harum earum?",
+      title: "Goals",
+      description:
+        "To continually innovate and expand our product offerings, foster strong relationships with fans and partners, and contribute positively to the sports community.",
     },
   ];
   return (
     <main>
-      <div className="p-8 bg-gray">
-        <h1 className="font-bold text-center">AboutUs</h1>
-        <h2 className="font-bold text-center">About FanHubStore</h2>
-        <section className="shadow-lg p-8">
-          <h1 className="font-bold p-2">Mission</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. At unde
-            incidunt, quod eius explicabo perspiciatis aspernatur illum labore
-            asperiores in magni doloribus quos voluptates optio est rem? Atque,
-            harum earum?
-          </p>
-        </section>
-
-        <section className="shadow-lg hover:bg-white p-8">
-          <h1 className="font-bold p-2">Vission</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. A, ipsa.
-            At, hic! Eius ad nulla quidem, dolor veritatis saepe animi ullam
-            odio, dolores quaerat, quam pariatur non accusamus aspernatur nihil.
-          </p>
-        </section>
-
-        <section className="shadow-lg p-8">
-          <h1 className="font-bold p-2">Goals</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. A, ipsa.
-            At, hic! Eius ad nulla quidem, dolor veritatis saepe animi ullam
-            odio, dolores quaerat, quam pariatur non accusamus aspernatur nihil.
-          </p>
-        </section>
-
+      <div className="p-8 bg-offwhite">
         <div>
-            <h1 className="font-bold mt-2 p-2">Subscribe To Never Miss New Deals</h1>
-            <form action="">
-                <input type="email" name="" id="" required placeholder="Enter E-Mail Address" className="w-1/2 p-2 ml-2 border rounded-lg focus:outline-none focus:border-blue shadow"/>
-                <button type="submit" className="bg-lightGreen rounded p-2 text-white font-bold ml-2">Subscribe</button>
-            </form>
+          <h1 className="font-bold text-center">About Us</h1>
+          <div>
+            {aboutCompany.map((company) => (
+              <div key={company.title} className="text-greyyy">
+                <h1>{company.title}</h1>
+                <p>{company.description}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </main>

@@ -18,3 +18,8 @@ export default function Testimonial() {
     </main>
   );
 }
+
+/* 
+- Create JavaScript array which contains name, image and customer testimonial
+- 
+*/

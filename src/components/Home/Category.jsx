@@ -12,3 +12,9 @@ export default function Category() {
     </main>
   );
 }
+
+/*
+- On mobile view display only 2 category in a time.
+- when a user hovers into a certain section create a underline black.
+- Download images concerning the following category(technlogy, sports , )
+*/

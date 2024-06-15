@@ -13,6 +13,8 @@ export default {
         "gray": "#F5F5F5",
         "green": "#0FFA50",
         "lightGreen": "#28A745",
+        "offwhite": " #f9f9f9",
+        "grey": "#333333",
       }
     },
   },

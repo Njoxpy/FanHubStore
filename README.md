@@ -32,6 +32,79 @@ Welcome to the Sports Center Store project! This web application allows users to
 
 ## Project Structure
 
+```txt
+funStoreHub/
+│
+├── public/
+│   ├── index.html
+│   └── favicon.ico
+│
+├── src/
+│   ├── assets/
+│   │   ├── images/
+│   │   └── styles/
+│   │       └── global.css
+│   │
+│   ├── components/
+│   │   ├── common/
+│   │   │   ├── Button.js
+│   │   │   └── Input.js
+│   │   ├── layout/
+│   │   │   ├── Header.js
+│   │   │   ├── Footer.js
+│   │   │   └── Sidebar.js
+│   │   ├── product/
+│   │   │   ├── ProductCard.js
+│   │   │   ├── ProductList.js
+│   │   │   └── ProductDetails.js
+│   │   ├── user/
+│   │   │   ├── UserProfile.js
+│   │   │   ├── LoginForm.js
+│   │   │   └── RegistrationForm.js
+│   │   └── admin/
+│   │       ├── AdminDashboard.js
+│   │       ├── CreateProduct.js
+│   │       ├── EditProduct.js
+│   │       └── DeleteProductConfirmation.js
+│   │
+│   ├── pages/
+│   │   ├── HomePage.js
+│   │   ├── ProductListingPage.js
+│   │   ├── ProductDetailsPage.js
+│   │   ├── CartPage.js
+│   │   ├── CheckoutPage.js
+│   │   ├── OrderConfirmationPage.js
+│   │   ├── ContactUsPage.js
+│   │   ├── AboutUsPage.js
+│   │   ├── LoginPage.js
+│   │   ├── RegistrationPage.js
+│   │   ├── ProfilePage.js
+│   │   └── NotFoundPage.js
+│   │
+│   ├── routes/
+│   │   └── AppRoutes.js
+│   │
+│   ├── context/
+│   │   ├── AuthContext.js
+│   │   └── ProductContext.js
+│   │
+│   ├── services/
+│   │   ├── api.js
+│   │   └── authService.js
+│   │
+│   ├── utils/
+│   │   └── helpers.js
+│   │
+│   ├── App.js
+│   ├── index.js
+│   └── reportWebVitals.js
+│
+├── .gitignore
+├── package.json
+├── README.md
+└── yarn.lock / package-lock.json
+```
+
 - `README.md`: Project documentation
 
 ## Contributing
