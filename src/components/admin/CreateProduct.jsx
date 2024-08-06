@@ -8,7 +8,9 @@ export default function CreateProduct() {
   const [productName, setProductName] = useState('');
   const [productDescription, setProductDescription] = useState('');
   const [productPrice, setProductPrice] = useState(0);
-  const [productImage, setProductImage] = useState('');
+  const [productImage, setProductImage] = useState(null);
+
+  const [isPending, setIsPending] = useState(false);
 
   /**
    * How should the initial state of the product name, description, price and image be using react
@@ -43,6 +45,8 @@ export default function CreateProduct() {
 
     console.log(productDescription, productImage, productName, productPrice);
 
+
+    // reset to default style
     setProductDescription("");
     setProductImage("");
     setProductName("");

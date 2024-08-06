@@ -3,6 +3,9 @@ page about the store and the club
 */
 import React from "react";
 
+import Footer from "../components/layout/Footer"
+
+
 export default function AboutUs() {
   const aboutCompany = [
     {
@@ -36,6 +39,7 @@ export default function AboutUs() {
           </div>
         </div>
       </div>
+      <Footer />
     </main>
   );
 }

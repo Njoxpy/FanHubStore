@@ -5,21 +5,21 @@ export default function Header() {
   return (
     <main>
       <div className="p-8 bg-blue text-white">
-        <h1 className="font-bold">funStoreHub</h1>
-        <nav className="flex justify-end">
-          <ul>
-            <li className="font-bold hover:text-yellow">
+        <h1 className="font-bold text-center">FunStoreHub</h1>
+        <nav className="flex justify-center mt-2">
+          <ul className="">
+            <span className="font-bold hover:text-yellow px-2">
               <NavLink to="/">Home</NavLink>
-            </li>
-            <li className="font-bold hover:text-yellow">
-            <NavLink to="products">Products</NavLink>
-            </li>
-            <li className="font-bold hover:text-yellow">
-            <NavLink to="login">Login</NavLink>
-            </li>
-            <li className="font-bold hover:text-yellow">
-            <NavLink to="about">About</NavLink>
-            </li>
+            </span>
+            <span className="font-bold hover:text-yellow px-2">
+              <NavLink to="products">Products</NavLink>
+            </span>
+            <span className="font-bold hover:text-yellow px-2">
+              <NavLink to="login">Login</NavLink>
+            </span>
+            <span className="font-bold hover:text-yellow px-2">
+              <NavLink to="about">About</NavLink>
+            </span>
           </ul>
         </nav>
       </div>
